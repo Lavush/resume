@@ -160,13 +160,13 @@
 }
 
 .bg{
-    background: rgba(0,0,0,0.5) url(../img/male-athlete-holding-medal.jpg);
+    background: rgba(0,0,0,0.5) url(img/male-athlete-holding-medal.jpg);
     background-size: cover;
     background-blend-mode: darken;
 }
-.name{
+.name{  
     color: white;
-    background: url(../bg-main.jpg);
+    background: url(bg-main.jpg);
     backdrop-filter: blur(80px);
     background-size: cover;
 }
