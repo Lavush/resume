@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: name;
+    src: url(../Donkin.otf);
+}
+@font-face {font-family: main;
+    src: url(../Nova-Classic-Personal-Use-Only-Regular.ttf);
+}
+
+
+
+
+.navbar{
+    position: sticky;
+    top: 0px;
+
+}
+.list{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 174, 0);
+    border-radius: 10px;
+}
+.list span{
+    margin: 0px 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.list:hover{
+    background-color: orange;
+    a:hover{
+        color: white;
+    }
+}
+.list a{
+    text-decoration: none;
+}
+
+
+
+/*.contact{
+    background-color: rgb(21, 21, 21);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 600px;
+}
+.main{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.edu{
+    margin: 10px;
+}
+.edu th{
+    padding: 5px 0px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.edu td{
+    padding: 5px 0px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+}*/
+
+
+
+
+.full{
+    background-color: rgb(157, 217, 255);
+    padding: 10px 0px;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-family: name;
+    margin: 10px;
+}
+.edu{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.big{
+    display: flex;
+    margin: 0px 5px;
+    background-color: rgb(0, 40, 63);
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+.year, .clg{
+    font-size: 16px;
+    color: rgb(125, 125, 125);
+}
+.name, .total{
+    color: white;
+    font-size: 30px;
+    font-family: name;
+}
+.per{
+    color: white;
+    display: flex;
+}
+.name{
+    margin: 5px 0px;
+}
+.clg{
+    width: 260px;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 20px 10px;
+    padding: 20px 0px;
+    border-radius: 10px;
+    background-color: orange;
+    
+}
+.information{
+    color: rgb(30, 0, 113);
+    margin: 0px 60px;
+}
+.content1{
+    font-size: 40px;
+    margin: 10px 0px;
+    font-family: main;
+    font-weight: bold;
+}
+.content2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.image img{
+    width: 300px;
+}
